@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catálogo — RS BRINDES</title>
+  <link rel="stylesheet" href="public/style.css" />
+</head>
+<body>
+  <header class="header gradient">
+    <div class="container nav">
+      <div class="brand"><div class="logo">RS</div><strong>RS BRINDES</strong></div>
+      <nav class="menu">
+        <a href="index.html">Início</a>
+        <a class="active" href="catalogo.html">Catálogo</a>
+        <a class="btn btn-primary" href="index.html#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container section">
+    <div class="toolbar">
+      <input id="search" class="search" placeholder="Buscar produto" />
+      <select id="category" class="search"></select>
+    </div>
+    <div id="chips" class="chips"></div>
+    <div id="grid" class="grid products"></div>
+  </main>
+  <footer class="footer">
+    <div class="container foot">
+      <div>© <span id="year"></span> RS BRINDES</div>
+      <div><a class="btn btn-light" href="index.html">Início</a></div>
+    </div>
+  </footer>
+  <script src="public/catalog.js"></script>
+</body>
+</html>
