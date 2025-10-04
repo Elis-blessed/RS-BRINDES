@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RS Brindes - Brindes Personalizados para Empresas</title>
+  <link rel="stylesheet" href="public/style.css"/>
+</head>
+<body>
+  <header class="header gradient">
+    <div class="container nav">
+      <div class="brand"><div class="logo">RS</div><strong>RS BRINDES</strong></div>
+      <nav class="menu">
+        <a class="active" href="index.html">Início</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a class="btn btn-primary" href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero gradient card-pad">
+      <h1>Brindes que fortalecem marcas</h1>
+      <p>21+ anos de mercado. Agora como fornecedor B2B, com personalização e entrega em todo o Brasil.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="catalogo.html">Ver Catálogo</a>
+        <a class="btn btn-light" href="#contato">Solicitar Orçamento</a>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <h3>Fale com a gente</h3>
+      <p>Endereço: Rua João Rodrigues Serra, 295 – Jardim Eulina – Campinas/SP</p>
+      <p>WhatsApp: <a href="https://wa.me/5519981859815" target="_blank">(19) 98185-9815</a></p>
+      <p>E-mail: <a href="mailto:rsbrindes2020@gmail.com">rsbrindes2020@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container foot">
+      <div>© <span id="year"></span> RS BRINDES</div>
+      <div><a class="btn btn-light" href="catalogo.html">Catálogo</a></div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
